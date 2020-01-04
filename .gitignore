@@ -1,2 +1,5 @@
 package-lock.json
 /node_modules
+maps.json
+database.sqlite
+map.osu
