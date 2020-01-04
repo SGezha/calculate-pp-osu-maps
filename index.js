@@ -1,4 +1,4 @@
-const osuToken = "6812b671a0a4ea0d85f2d73cc141255c441a82c8",
+const osuToken = "<osu token>",
     fs = require("fs"),
     readline = require('readline'),
     ojsama = require('ojsama'),
