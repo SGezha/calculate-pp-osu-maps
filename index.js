@@ -1,8 +1,8 @@
 const osuToken = "<osu token>",
-    fs = require("fs"),
-    readline = require('readline'),
-    ojsama = require('ojsama'),
-    axios = require('axios');
+        fs = require("fs"),
+        readline = require('readline'),
+        ojsama = require('ojsama'),
+        axios = require('axios');
 
 let maps = JSON.parse(fs.readFileSync("./maps.json").toString()).loved;
 maps = maps.filter(i => i.mode == 0);
